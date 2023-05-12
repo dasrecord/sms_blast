@@ -3,7 +3,7 @@ import time
 import config
 
 # Construct Webhook URL
-url = f"https://maker.ifttt.com/trigger/{config.IFTTT_EVENT_NAME}/with/key/{config.BEAUMONT_IFTTT_KEY}"
+url = f"https://maker.ifttt.com/trigger/{config.IFTTT_EVENT_NAME}/with/key/{config.MY_IFTTT_KEY}"
 
 # Select Contact List 
 file = "test_list.csv"
